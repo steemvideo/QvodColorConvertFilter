@@ -1,0 +1,115 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ColorConvertProp DIALOGEX 0, 0, 162, 112
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 9, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "Input",IDC_STATIC,17,14,60,83
+    CONTROL         "YV12",IDC_YV12,"Button",BS_AUTORADIOBUTTON | WS_GROUP,25,32,32,10
+    CONTROL         "YUY2",IDC_YUY2,"Button",BS_AUTORADIOBUTTON,25,48,33,10
+    CONTROL         "RGB24",IDC_RGB24,"Button",BS_AUTORADIOBUTTON,25,64,37,10
+    CONTROL         "RGB32",IDC_RGB32,"Button",BS_AUTORADIOBUTTON,25,79,37,10
+    GROUPBOX        "Output",IDC_STATIC,85,14,60,83
+    CONTROL         "YV12",IDC_OYV12,"Button",BS_AUTORADIOBUTTON | WS_GROUP,92,31,32,10
+    CONTROL         "YUY2",IDC_OYUY2,"Button",BS_AUTORADIOBUTTON,92,47,33,10
+    CONTROL         "RGB24",IDC_ORGB24,"Button",BS_AUTORADIOBUTTON,92,63,37,10
+    CONTROL         "RGB32",IDC_ORGB32,"Button",BS_AUTORADIOBUTTON,92,78,37,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ColorConvertProp, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 105
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE               "Color Space Convert"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
